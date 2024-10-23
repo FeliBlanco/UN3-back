@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 async function connectDB() {
-    await mongoose.connect('mongodb://127.0.0.1:27017/piiib')
+    await mongoose.connect('mongodb://feli:feliblancoo@ec2-18-206-120-192.compute-1.amazonaws.com:27017/piii?authSource=admin')
     console.log(`DB CONECTADA!`)
 }
 
